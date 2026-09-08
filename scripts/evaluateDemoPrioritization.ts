@@ -56,7 +56,7 @@ export function runDemoPrioritizationAudit() {
     console.table(unrankedTable);
   }
 
-  console.log('\n' + '='.repeat(105));
+  console.log(`\n${  '='.repeat(105)}`);
   console.log('SAMPLE DETAILED MUNICIPAL JUSTIFICATION (#1 Ranked Zone)');
   console.log('='.repeat(105));
 
@@ -73,9 +73,9 @@ export function runDemoPrioritizationAudit() {
     console.log(`Notice: ${topPriority.provenance.assumptions.join('; ')}`);
   }
 
-  console.log('\n' + '='.repeat(105));
+  console.log(`\n${  '='.repeat(105)}`);
   console.log('DEMO AUDIT EXECUTION COMPLETE: FULL PIPELINE VERIFIED.');
-  console.log('='.repeat(105) + '\n');
+  console.log(`${'='.repeat(105)  }\n`);
 
   return result;
 }
