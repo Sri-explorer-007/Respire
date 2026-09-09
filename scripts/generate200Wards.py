@@ -216,6 +216,11 @@ ZONES_SPEC = [
 ]
 
 def generate():
+    """Generate a complete 200-ward Chennai municipal dataset and write it to a TypeScript file.
+    Parameters:
+        - None.
+    Returns:
+        - None: Writes the generated ward data to ``src/data/processed/chennaiAllWardsData.ts`` and prints generation status messages."""
     all_wards = []
     total_count = 0
 
